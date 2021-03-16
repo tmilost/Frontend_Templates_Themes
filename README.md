@@ -1,2 +1,2 @@
 # Frontend_Templates_Themes
-mostly jQuery
+Mostly jQuery, Vue 
