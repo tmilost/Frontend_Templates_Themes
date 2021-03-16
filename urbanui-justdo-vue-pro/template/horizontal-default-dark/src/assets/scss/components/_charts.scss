@@ -1,0 +1,34 @@
+#morris-donut-example {
+  svg {
+    text {
+      color: #fff;
+      fill: #fff;
+    }
+  }
+}
+.float-chart-container {
+  .flot-svg {
+    .flot-tick-label,
+    text {
+      fill: $text-muted;
+    }
+  }
+}
+.c3 {
+  .c3-legend-item,
+  text,
+  line,
+  .tick {
+    fill: $text-muted;
+  }
+  line {
+    stroke: $text-muted;
+  }
+  path {
+    stroke: $border-color;
+  }
+}
+.ct-label {
+  fill: $text-muted;
+  color: $text-muted;
+}

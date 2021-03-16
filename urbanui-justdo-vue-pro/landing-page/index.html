@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JustDo Vue Admin</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.5.95/css/materialdesignicons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top px-5 bg-white">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.svg" alt="JustDo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto d-flex align-items-center">
+          <li class="nav-item">
+            <a
+              class="nav-link px-3"
+              href="http://www.bootstrapdash.com/demo/justdo-vue-pro/documentation/documentation.html"
+              target="_blank"
+              >Documentation <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#" id="featuresButton">Features</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link pl-3 pr-0"
+              href="http://themeforest.net/item/justdo-vue-admin-template/25823139?ref=web14"
+              target="_blank"
+            >
+              <span class="btn btn-warning text-white">Buy Now</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid px-0 mt-5 pt-3">
+      <div class="content-wrapper layouts-preview-main-wrapper">
+        <div>
+          <h2 class="text-center mb-3 font-weight-light mt-5 text-muted">
+            CHOOSE A LAYOUT
+          </h2>
+          <div class="row layouts-preview-wrapper">
+            <div class="col-md-4 grid-margin">
+              <div class="p-3 preview-item">
+                <a
+                  href="http://www.bootstrapdash.com/demo/justdo-vue-pro/preview/vertical-default-light/"
+                  target="_blank"
+                >
+                  <img
+                    src="images/demo/vertical-default.jpg"
+                    alt="vertical menu"
+                    class="mw-100"
+                  />
+                  <div class="item-title">
+                    <h4 class="text-dark text-center">Vertical - light</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 grid-margin">
+              <div class="p-3 preview-item">
+                <a
+                  href="http://www.bootstrapdash.com/demo/justdo-vue-pro/preview/vertical-default-dark/"
+                  target="_blank"
+                >
+                  <img
+                    src="images/demo/vertical-dark.jpg"
+                    alt="vertical menu"
+                    class="mw-100"
+                  />
+                  <div class="item-title">
+                    <h4 class="text-dark text-center">Vertical - dark</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 grid-margin">
+              <div class="p-3 preview-item">
+                <a
+                  href="http://www.bootstrapdash.com/demo/justdo-vue-pro/preview/horizontal-default-light/"
+                  target="_blank"
+                >
+                  <img
+                    src="images/demo/horizontal-menu-light.jpg"
+                    alt="horizontal"
+                    class="mw-100"
+                  />
+                  <div class="item-title">
+                    <h4 class="text-dark text-center">Horizontal - light</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 grid-margin">
+              <div class="p-3 preview-item">
+                <a
+                  href="http://www.bootstrapdash.com/demo/justdo-vue-pro/preview/horizontal-default-dark/"
+                  target="_blank"
+                >
+                  <img
+                    src="images/demo/horizontal-menu-dark.jpg"
+                    alt="horizontal"
+                    class="mw-100"
+                  />
+                  <div class="item-title">
+                    <h4 class="text-dark text-center">Horizontal - dark</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 grid-margin">
+              <div class="p-3 preview-item">
+                <a
+                  href="http://www.bootstrapdash.com/demo/justdo-vue-pro/preview/vertical-dark-sidebar/"
+                  target="_blank"
+                >
+                  <img
+                    src="images/demo/dark-sidebar.jpg"
+                    alt="dark sidebar"
+                    class="mw-100"
+                  />
+                  <div class="item-title">
+                    <h4 class="text-dark text-center">Dark menu</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 grid-margin">
+              <div class="p-3 preview-item">
+                <a
+                  href="http://www.bootstrapdash.com/demo/justdo-vue-pro/preview/vertical-boxed/"
+                  target="_blank"
+                >
+                  <img
+                    src="images/demo/boxed-layout.jpg"
+                    alt="boxed layout"
+                    class="mw-100"
+                  />
+                  <div class="item-title">
+                    <h4 class="text-dark text-center">Boxed layout</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 grid-margin">
+              <div class="p-3 preview-item">
+                <a
+                  href="http://www.bootstrapdash.com/demo/justdo-vue-pro/preview/vertical-icon-menu/"
+                  target="_blank"
+                >
+                  <img
+                    src="images/demo/icon-menu.jpg"
+                    alt="icon sidebar"
+                    class="mw-100"
+                  />
+                  <div class="item-title">
+                    <h4 class="text-dark text-center">Icon menu</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 grid-margin">
+              <div class="p-3 preview-item">
+                <a
+                  href="http://www.bootstrapdash.com/demo/justdo-vue-pro/preview/vertical-compact/"
+                  target="_blank"
+                >
+                  <img
+                    src="images/demo/compact-menu.jpg"
+                    alt="compact sidebar"
+                    class="mw-100"
+                  />
+                  <div class="item-title">
+                    <h4 class="text-dark text-center">Compact menu</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 grid-margin">
+              <div class="p-3 preview-item">
+                <a
+                  href="http://www.bootstrapdash.com/demo/justdo-vue-pro/preview/vertical-fixed/"
+                  target="_blank"
+                >
+                  <img
+                    src="images/demo/fixed-menu.jpg"
+                    alt="fixed sidebar"
+                    class="mw-100"
+                  />
+                  <div class="item-title">
+                    <h4 class="text-dark text-center">Fixed sidebar</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 grid-margin">
+              <div class="p-3 preview-item">
+                <a
+                  href="http://www.bootstrapdash.com/demo/justdo-vue-pro/preview/vertical-hidden-toggle/"
+                  target="_blank"
+                >
+                  <img
+                    src="images/demo/toggle-menu.jpg"
+                    alt="toggle sidebar"
+                    class="mw-100"
+                  />
+                  <div class="item-title">
+                    <h4 class="text-dark text-center">Toggle sidebar</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 grid-margin">
+              <div class="p-3 preview-item">
+                <a
+                  href="http://www.bootstrapdash.com/demo/justdo-vue-pro/preview/vertical-toggle-overlay/"
+                  target="_blank"
+                >
+                  <img
+                    src="images/demo/toggle-overlay-menu.jpg"
+                    alt="dark sidebar"
+                    class="mw-100"
+                  />
+                  <div class="item-title">
+                    <h4 class="text-dark text-center">Sidebar overlay</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 grid-margin">
+              <div class="h-100 d-flex flex-column p-3 preview-item">
+                <a
+                  href="#"
+                  class="flex-grow-1 d-flex align-content-center justify-content-center flex-column"
+                >
+                  <i class="mdi mdi-dots-horizontal h1 text-center"></i>
+                  <h4 class="text-dark text-center">Coming soon</h4>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="features p-5 text-white mt-5" id="features">
+          <h4 class="mb-5 text-center py-3">JustDo vue Admin Features</h4>
+          <div class="row">
+            <div class="col-md-3 mb-5 px-lg-5">
+              <h5 class="d-flex align-items-center font-weight-light">
+                <i class="mdi mdi-xmpp icon-lg mr-2 text-warning"></i>
+                Vue
+              </h5>
+              <p class="font-weight-light">
+                JustDo Vue Admin is built with Vue latest version
+              </p>
+            </div>
+            <div class="col-md-3 mb-5 px-lg-5">
+              <h5 class="d-flex align-items-center font-weight-light">
+                <i class="mdi mdi-format-bold icon-lg mr-2 text-warning"></i>
+                Bootstrap
+              </h5>
+              <p class="font-weight-light">
+                JustDo vue Admin is built with latest version of bootstrap
+              </p>
+            </div>
+            <div class="col-md-3 mb-5 px-lg-5">
+              <h5 class="d-flex align-items-center font-weight-light">
+                <i
+                  class="mdi mdi-monitor-cellphone icon-lg mr-2 text-warning"
+                ></i>
+                Fully responsive
+              </h5>
+              <p class="font-weight-light">
+                100% fully responsive layout, It display well in any size of
+                devices.
+              </p>
+            </div>
+            <div class="col-md-3 mb-5 px-lg-5">
+              <h5 class="d-flex align-items-center font-weight-light">
+                <i class="mdi mdi-google-chrome icon-lg mr-2 text-warning"></i>
+                Cross browser
+              </h5>
+              <p class="font-weight-light">
+                Display well in all modern browsers & devices
+              </p>
+            </div>
+            <div class="col-md-3 mb-5 px-lg-5">
+              <h5 class="d-flex align-items-center font-weight-light">
+                <i class="mdi mdi-atom icon-lg mr-2 text-warning"></i>
+                Rich components
+              </h5>
+              <p class="font-weight-light">
+                A lot of UI components, plugins and widgets
+              </p>
+            </div>
+            <div class="col-md-3 mb-5 px-lg-5">
+              <h5 class="d-flex align-items-center font-weight-light">
+                <i class="mdi mdi-chart-line icon-lg mr-2 text-warning"></i>
+                Data visualisation
+              </h5>
+              <p class="font-weight-light">
+                A lot of customised chart libraries
+              </p>
+            </div>
+            <div class="col-md-3 mb-5 px-lg-5">
+              <h5 class="d-flex align-items-center font-weight-light">
+                <i class="mdi mdi-cards-outline icon-lg mr-2 text-warning"></i>
+                1000s of icons
+              </h5>
+              <p class="font-weight-light">Over 1000+ icons to choose</p>
+            </div>
+            <div class="col-md-3 mb-5 px-lg-5">
+              <h5 class="d-flex align-items-center font-weight-light">
+                <i class="mdi mdi-screwdriver icon-lg mr-2 text-warning"></i>
+                Tools
+              </h5>
+              <p class="font-weight-light">
+                Integrated with tools like npm, gulp etc.
+              </p>
+            </div>
+            <div class="col-md-3 mb-5 mb-md-0 px-lg-5">
+              <h5 class="d-flex align-items-center font-weight-light">
+                <i class="mdi mdi-sass icon-lg mr-2 text-warning"></i>
+                SCSS
+              </h5>
+              <p class="font-weight-light">
+                Built with scss to make development and customisation easier
+              </p>
+            </div>
+            <div class="col-md-3 mb-5 mb-md-0 px-lg-5">
+              <h5 class="d-flex align-items-center font-weight-light">
+                <i class="mdi mdi-headphones icon-lg mr-2 text-warning"></i>
+                Support
+              </h5>
+              <p class="font-weight-light">
+                Unbeatable support for your queries
+              </p>
+            </div>
+            <div class="col-md-3 mb-5 mb-md-0 px-lg-5">
+              <h5 class="d-flex align-items-center font-weight-light">
+                <i
+                  class="mdi mdi-format-color-fill icon-lg mr-2 text-warning"
+                ></i>
+                Color themes
+              </h5>
+              <p class="font-weight-light">Dark and light themes available</p>
+            </div>
+            <div class="col-md-3 mb-5 mb-md-0 px-lg-5">
+              <h5 class="d-flex align-items-center font-weight-light">
+                <i
+                  class="mdi mdi-file-document-box-outline icon-lg mr-2 text-warning"
+                ></i>
+                Documentation
+              </h5>
+              <p class="font-weight-light">Well documented</p>
+            </div>
+          </div>
+        </div>
+        <div class="bootstrapdash-demo-footer mt-5">
+          <div
+            class="d-flex justify-content-center align-items-center flex-wrap"
+          >
+            <h4 class="mr-md-4 mb-0">Buy and dowload for $25 now</h4>
+            <a
+              class="btn btn-warning"
+              href="http://themeforest.net/item/justdo-vue-admin-template/25823139?ref=web14"
+              target="_blank"
+              >Buy Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      scrollTo = element => {
+        window.scroll({
+          behavior: "smooth",
+          left: 0,
+          top: element.offsetTop
+        });
+
+        console;
+      };
+
+      document
+        .getElementById("featuresButton")
+        .addEventListener("click", () => {
+          scrollTo(document.getElementById("features"));
+        });
+    </script>
+  </body>
+</html>

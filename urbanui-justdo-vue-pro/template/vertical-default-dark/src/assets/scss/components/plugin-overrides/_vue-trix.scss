@@ -1,0 +1,20 @@
+trix-toolbar  {
+  .trix-button-row {
+    .trix-button-group {
+      border: 1px solid theme-color(primary);
+      .trix-button {
+        color: $white;
+        background: theme-color(primary);
+        border-bottom: none;
+      }
+    }
+  }
+}
+trix-editor {
+  &.trix-content {
+    pre {
+      background: $black;
+      color: $white;
+    }
+  }
+}

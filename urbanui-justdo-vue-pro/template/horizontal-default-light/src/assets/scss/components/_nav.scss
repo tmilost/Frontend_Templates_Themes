@@ -1,0 +1,21 @@
+.nav,
+.navbar-nav {
+  .nav-item {
+    line-height: 1;
+
+    &.dropdown {
+      .dropdown-toggle {
+        &:after {
+          display: none;
+        }
+      }
+
+      .dropdown-menu {
+        .dropdown-item {
+          display: flex;
+          @extend .align-items-center;
+        }
+      }
+    }
+  }
+}
